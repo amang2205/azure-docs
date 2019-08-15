@@ -134,7 +134,7 @@ Example: assume that we have a user, Pol, who wants to reset their password to �
 
 The next step is to identify all instances of banned passwords in the user's normalized new password. Then:
 
-1. Each banned password that is found in a user’s password is given one point.
+1. Each banned password that is found in a user’s password is given zero pointsș otherwise, it is given one point.
 2. Each remaining unique character is given one point.
 3. A password must be at least five (5) points for it to be accepted.
 
